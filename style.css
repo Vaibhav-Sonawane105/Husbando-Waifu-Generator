@@ -1,0 +1,203 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #1e1e2e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+h1, h2 {
+    color: #ff6b6b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    color: #6a727e;
+}
+label{
+    color: #1e1e2e;
+}
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center-content {
+    width: 60%;
+    max-width: 500px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#introScreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+}
+
+#animeCharacter {
+    width: 250px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    animation: breathing 3s infinite alternate ease-in-out, hairMovement 1.5s infinite alternate ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0.5));
+}
+
+@keyframes breathing {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.05); }
+}
+
+@keyframes hairMovement {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(1.5deg); }
+}
+
+#animeCharacter:hover {
+    filter: drop-shadow(0 0 25px rgba(28, 43, 170, 0.93));
+}
+
+#startBtn, #Select-Gender button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #ff7b72;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+#startBtn:hover, #Select-Gender button:hover {
+    background-color: #ff5448;
+}
+
+#Select-Gender {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+button {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin: 10px auto;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid #333;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff7eb3, #ff758c);
+    transform: scale(1.05);
+}
+
+.quiz-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    max-width: 500px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.quiz-container h2 {
+    color: #040300;
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    max-width: 90%;
+    width: 400px;
+}
+
+#result-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#result-text {
+    font-size: 1.5rem;
+    color: #ff4a4a;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+#bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+@media (max-width: 600px) {
+    button {
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+    #animeCharacter {
+        width: 180px;
+        bottom: 5px;
+        left: 5px;
+    }
+    #result-container {
+        width: 90%;
+    }
+}

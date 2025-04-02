@@ -1,0 +1,186 @@
+{
+  "male": [
+    {
+      "question": "What type of personality do you like?",
+      "options": {
+        "Kind and Caring": "Kind",
+        "Fiery and Passionate": "Fiery",
+        "Intelligent and Strategic": "Intelligent",
+        "Mysterious and Cool": "Mysterious"
+      }
+    },
+    {
+      "question": "How do you want your partner to express their love?",
+      "options": {
+        "Through actions rather than words": "Reserved",
+        "Openly and affectionately": "Affectionate",
+        "Playfully and teasingly": "Playful",
+        "Shy but deeply caring": "Shy"
+      }
+    },
+    {
+      "question": "Which quality do you admire most?",
+      "options": {
+        "Bravery": "Brave",
+        "Loyalty": "Loyal",
+        "Intelligence": "Intelligent",
+        "Independence": "Independent"
+      }
+    },
+    {
+      "question": "How do you feel about a strong, independent partner?",
+      "options": {
+        "I admire it a lot": "Independent",
+        "I prefer someone who depends on me": "Dependent",
+        "I like a balance of independence and affection": "Balanced",
+        "I love someone who's protective of me": "Protective"
+      }
+    },
+    {
+      "question": "What kind of hobbies do you like in a partner?",
+      "options": {
+        "Reading and studying": "Intelligent",
+        "Sports and action-packed activities": "Energetic",
+        "Cooking or taking care of others": "Caring",
+        "Art, music, or creativity": "Creative"
+      }
+    },
+    {
+      "question": "Which trait do you dislike the most?",
+      "options": {
+        "Overly jealous behavior": "Jealous",
+        "Being too shy to express feelings": "Shy",
+        "Not taking anything seriously": "Carefree",
+        "Being too strict and serious": "Serious"
+      }
+    },
+    {
+      "question": "How do you imagine spending time together?",
+      "options": {
+        "Going on thrilling adventures": "Adventurous",
+        "Spending cozy nights indoors": "Reserved",
+        "Going on cute romantic dates": "Romantic",
+        "Training and working hard together": "Dedicated"
+      }
+    },
+    {
+      "question": "Do you prefer someone who is...?",
+      "options": {
+        "Loud and energetic": "Energetic",
+        "Calm and collected": "Calm",
+        "Shy and cute": "Shy",
+        "Confident and strong": "Strong"
+      }
+    },
+    {
+      "question": "What do you want in a partner?",
+      "options": {
+        "Someone who protects me": "Protective",
+        "Someone who supports my dreams": "Supportive",
+        "Someone who makes me laugh": "Funny",
+        "Someone who's mysterious and cool": "Mysterious"
+      }
+    },
+    {
+      "question": "How do you handle conflicts?",
+      "options": {
+        "Talk things out peacefully": "Calm",
+        "Ignore the problem until it goes away": "Reserved",
+        "Confront it directly": "Strong",
+        "Try to lighten the mood with humor": "Funny"
+      }
+    }
+  ],
+  "female": [
+    {
+      "question": "What kind of guy do you prefer?",
+      "options": {
+        "Charming and Flirty": "Charming",
+        "Smart and Mysterious": "Intelligent",
+        "Strong and Reliable": "Strong",
+        "Shy but Sweet": "Shy"
+      }
+    },
+    {
+      "question": "How should he show his love?",
+      "options": {
+        "Through grand romantic gestures": "Romantic",
+        "Through small caring acts": "Caring",
+        "By always being there for me": "Loyal",
+        "By protecting me no matter what": "Protective"
+      }
+    },
+    {
+      "question": "Which trait do you admire most?",
+      "options": {
+        "Confidence": "Confident",
+        "Kindness": "Kind",
+        "Loyalty": "Loyal",
+        "Sense of humor": "Funny"
+      }
+    },
+    {
+      "question": "What would be an ideal date?",
+      "options": {
+        "A fancy dinner": "Romantic",
+        "A fun amusement park": "Playful",
+        "A quiet bookstore or cafe": "Reserved",
+        "A thrilling adventure": "Adventurous"
+      }
+    },
+    {
+      "question": "What is your biggest turn-off?",
+      "options": {
+        "Being too arrogant": "Arrogant",
+        "Being too clingy": "Clingy",
+        "Not being emotionally available": "Distant",
+        "Being overly serious all the time": "Serious"
+      }
+    },
+    {
+      "question": "How do you want him to react when you're sad?",
+      "options": {
+        "Hug me and comfort me": "Caring",
+        "Crack jokes to cheer me up": "Funny",
+        "Give me space but stay nearby": "Reserved",
+        "Get mad and try to fix the problem": "Protective"
+      }
+    },
+    {
+      "question": "What makes someone attractive to you?",
+      "options": {
+        "A cool, mysterious aura": "Mysterious",
+        "A sweet and caring personality": "Kind",
+        "Being confident and strong": "Strong",
+        "Being playful and fun": "Playful"
+      }
+    },
+    {
+      "question": "How do you feel about a guy who teases you a lot?",
+      "options": {
+        "It's cute and fun!": "Playful",
+        "I prefer someone more serious": "Serious",
+        "As long as he knows when to stop, it's fine": "Balanced",
+        "I love playful teasing but only in private": "Reserved"
+      }
+    },
+    {
+      "question": "What's the best thing about your ideal partner?",
+      "options": {
+        "He always makes me feel safe": "Protective",
+        "He understands me completely": "Understanding",
+        "He's my best friend and makes me laugh": "Funny",
+        "He's ambitious and determined": "Dedicated"
+      }
+    },
+    {
+      "question": "What kind of guy do you NOT like?",
+      "options": {
+        "Too aggressive and hot-headed": "Fiery",
+        "Too shy to talk to me": "Shy",
+        "Too lazy and unmotivated": "Lazy",
+        "Too serious and never has fun": "Serious"
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "male": [
+    {
+      "name": "Levi Ackerman",
+      "image": "https://i.pinimg.com/736x/bd/b5/a8/bdb5a805b8fb2d23aeb4b8b691cc02cc.jpg",
+      "traits": ["Cool", "Mysterious", "Loyal", "Quiet", "Battle-ready"],
+      "anime": "Attack on Titan"
+    },
+    {
+      "name": "Gojo Satoru",
+      "image": "https://i.pinimg.com/originals/d2/52/4b/d2524b6111317c36cb04120586ac1cd1.jpg",
+      "traits": ["Charming", "Flashy", "Teasing", "Confident", "Energetic"],
+      "anime": "Attack on Titan"
+    },
+    {
+      "name": "Itachi Uchiha",
+      "image": "https://vignette.wikia.nocookie.net/naruto/images/b/bb/Itachi.png/revision/latest?cb=20160125182202",
+      "traits": ["Mysterious", "Intelligent", "Loyal", "Strong", "Deep thinker"],
+      "anime": "Attack on Titan"
+    },
+    {
+      "name": "Luffy",
+      "image": "https://i.pinimg.com/736x/38/82/63/3882634a2f864296991dfbd15ad5b8fa--one-piece--luffy.jpg",
+      "traits": ["Energetic", "Playful", "Loyal", "Adventurous", "Strong-willed"],
+      "anime": "Attack on Titan"
+    },
+    {
+      "name": "Sebastian Michaelis",
+      "image": "https://th.bing.com/th/id/R.5409bb320d7e50bfb0e99729c00936f8?rik=2U5HU%2binhYuQgA&riu=http%3a%2f%2flilith-devilia-mangas.l.i.pic.centerblog.net%2fo%2f236c2232.jpg&ehk=0SnpNg6pPic%2fw3EsCrbxWCLVqJE864yfP11pj%2b3TX50%3d&risl=&pid=ImgRaw&r=0",
+      "traits": ["Elegant", "Mysterious", "Loyal", "Calm", "Strong"],
+      "anime": "Attack on Titan"
+    }
+  ],
+  "female": [
+    {
+      "name": "Hinata Hyuga",
+      "image": "https://i.pinimg.com/736x/7e/18/18/7e1818616b337bb6f4fe9257e2bc4de3--anime-girl-cute-anime-girls.jpg",
+      "traits": ["Sweet", "Loyal", "Quiet", "Caring", "Battle-ready"]
+    },
+    {
+      "name": "Yor Forger",
+      "image": "https://i.pinimg.com/736x/85/1b/f3/851bf3f230f0fe9828a42eb1bff9e705.jpg",
+      "traits": ["Strong", "Mysterious", "Loyal", "Protective", "Elegant"]
+    },
+    {
+      "name": "Marin Kitagawa",
+      "image": "https://i.pinimg.com/originals/e4/05/fa/e405fa6c0f4221aab735a9dea8141583.jpg",
+      "traits": ["Energetic", "Playful", "Teasing", "Flirty", "Stylish"]
+    },
+    {
+      "name": "Mikasa Ackerman",
+      "image": "https://i.redd.it/0nycwyv9spt61.jpg",
+      "traits": ["Strong", "Quiet", "Loyal", "Battle-ready", "Protective"]
+    },
+    {
+      "name": "Zero Two",
+      "image": "https://wallpapers.com/images/featured/zero-two-pictures-s9wb1kt06rbnw0f9.jpg",
+      "traits": ["Mysterious", "Teasing", "Loyal", "Playful", "Confident"]
+    }
+  ]
+}
+
+
+  

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Husbando/Waifu Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay loop muted playsinline id="bg-video">
+        <source src="vecteezy_couple-in-rain_52876788.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <div class="center-wrapper">
+        <div id="intro-page" class="center-content">
+            <img id="animeCharacter" src="kindpng_1472180-removebg-preview.png" alt="Anime Character">
+            <h1>Welcome to the Anime Husbando and Waifu Game</h1>
+            <p>Find your perfect anime match based on your personality and preferences.</p>
+            <button id="str-button">Find Your Match</button>
+        </div>
+    </div>
+    <div class="center-wrapper">
+        <div id="Select-Gender" style="display: none;" class="center-content">
+            <h2>Select Your Gender</h2>
+            <button id="male-but">Male</button>
+            <button id="female-but">Female</button>
+        </div>
+    </div>
+    <div class="center-wrapper">
+        <div class="quiz-container center-content" style="display: none;">
+            <h1>Find Your Perfect Waifu/Husbando!</h1>
+    
+            <div id="question-container">
+                <!-- The question and options will be dynamically inserted here -->
+            </div>
+    
+            <div id="options-container">
+                <!-- Option buttons will be inserted dynamically -->
+            </div>
+        </div>
+    </div>
+    
+    <div id="result-container" style="display: none; text-align: center;">
+        <h2 id="result-text"></h2>
+        <img id="result-image" alt="Your Waifu/Husbando" style="max-width: 300px; border-radius: 10px;">
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
