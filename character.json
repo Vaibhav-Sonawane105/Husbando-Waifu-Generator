@@ -29,6 +29,30 @@
       "image": "https://th.bing.com/th/id/R.5409bb320d7e50bfb0e99729c00936f8?rik=2U5HU%2binhYuQgA&riu=http%3a%2f%2flilith-devilia-mangas.l.i.pic.centerblog.net%2fo%2f236c2232.jpg&ehk=0SnpNg6pPic%2fw3EsCrbxWCLVqJE864yfP11pj%2b3TX50%3d&risl=&pid=ImgRaw&r=0",
       "traits": ["Elegant", "Mysterious", "Loyal", "Calm", "Strong"],
       "anime": "Black Butler"
+    },
+    {
+      "name": "Inomata Taiki",
+      "image": "https://i.pinimg.com/736x/64/b6/be/64b6be0544146b4ecd26dcafb535d2d0.jpg",
+      "traits": ["Confident", "Skilled", "Competitive", "Perceptive", "Ambitious"],
+      "anime": "Blue Box"
+    },
+    {
+      "name": "Shikamaru Nara",
+      "image":"https://th.bing.com/th/id/OIP.LjEnet8LLr4AhtA5PCjGDgHaHa?rs=1&pid=ImgDetMain",
+      "traits": ["Brilliant", "Lazy", "Strategic", "Loyal", "Easygoing"],
+      "anime": "Naruto"
+    },
+    {
+      "name": "Sanji",
+      "image":"https://i.pinimg.com/originals/84/63/fd/8463fdda8294b36f169b2897ec653f93.jpg",
+      "traits": ["Chivalrous", "Passionate", "Skilled", "Loyal", "Hot-headed"],
+      "anime": "One Piece"
+    },
+    {
+      "name": "Light Yagami",
+      "image":"https://th.bing.com/th/id/OIP.tY3sge_8LmvHSlqbokf26AAAAA?rs=1&pid=ImgDetMain",
+      "traits": ["Intelligent", "Manipulative", "Charismatic", "Arrogant", "Determined"],
+      "anime": "Death Note"
     }
   ],
   "female": [
@@ -61,7 +85,32 @@
       "image": "https://wallpapers.com/images/featured/zero-two-pictures-s9wb1kt06rbnw0f9.jpg",
       "traits": ["Mysterious", "Teasing", "Loyal", "Playful", "Confident"],
       "anime": "Darling in the FRANXX"
+    },
+    {
+      "name": "Hina Chono",
+      "image": "https://i.pinimg.com/736x/a9/44/2d/a9442d3360d83237b3164cbf1d4f78dc.jpg",
+      "traits": ["Athletic", "Determined", "Kind", "Resilient", "Passionate"],
+      "anime": "Blue Box"
+    },
+    {
+      "name": "Momo Ayase",
+      "image":"https://i.pinimg.com/474x/33/7c/95/337c955fd786fb7b6e42ef521ad26c49.jpg?nii=t",
+      "traits": ["Brave", "Spirited", "Compassionate", "Stubborn", "Loyal"],
+      "anime": "Dandadan"
+    },
+    {
+      "name": "Big Mom",
+      "image":"https://i.pinimg.com/originals/35/eb/cd/35ebcdd0d21f43c253d50bba59437f72.jpg",
+      "traits": ["Terrifying", "Powerful", "Whimsical", "Gluttonous", "Family-Obsessed"],
+      "anime": "One Piece"
+    },
+    {
+      "name": "Makima",
+      "image": "https://i.pinimg.com/originals/c0/9e/c2/c09ec29554c708d99ee6d37a22746bcc.jpg",
+      "traits": ["Manipulative", "Calculating", "Charismatic", "Enigmatic", "Dominating"],
+      "anime": "Chainsaw Man"
     }
+
   ]
 }
 
