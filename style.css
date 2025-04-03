@@ -52,7 +52,7 @@ label{
 #animeCharacter {
     width: 250px;
     position: fixed;
-    bottom: 10px;
+    bottom: -2px;
     left: 10px;
     animation: breathing 3s infinite alternate ease-in-out, hairMovement 1.5s infinite alternate ease-in-out;
     transition: transform 0.3s ease-in-out;
@@ -194,7 +194,7 @@ button:hover {
     }
     #animeCharacter {
         width: 180px;
-        bottom: 5px;
+        bottom: 1px;
         left: 5px;
     }
     #result-container {
