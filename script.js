@@ -150,4 +150,23 @@ function showResult() {
     }
 }
 
+// Fuction for changing msgs in intro section 
+const messages = [
+    "Hey there! Ready to play?",
+    "Let’s find your anime soulmate!",
+    "Click me again, I dare you 😄",
+    "You're just my type... of player!",
+    "Hmm... I sense a strong match coming!",
+    "You’ll love what’s next, trust me 💖"
+];
+
+function changeMessage() {
+    const bubble = document.getElementById('speech-bubble');
+    const current = bubble.textContent;
+    let newMsg = current;
+    while (newMsg === current) {
+        newMsg = messages[Math.floor(Math.random() * messages.length)];
+    }
+    bubble.textContent = newMsg;
+}
 
