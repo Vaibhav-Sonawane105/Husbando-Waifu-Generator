@@ -15,7 +15,7 @@
         "Through actions rather than words": "Reserved",
         "Openly and affectionately": "Affectionate",
         "Playfully and teasingly": "Playful",
-        "Shy but deeply caring": "Shy"
+        "Dominating and Boosy": "Dominating"
       }
     },
     {
@@ -23,8 +23,8 @@
       "options": {
         "Bravery": "Brave",
         "Loyalty": "Loyal",
-        "Intelligence": "Intelligent",
-        "Independence": "Independent"
+        "Passionate": "Passionate",
+        "Spirited": "Spirited"
       }
     },
     {
@@ -68,7 +68,7 @@
       "options": {
         "Loud and energetic": "Energetic",
         "Calm and collected": "Calm",
-        "Shy and cute": "Shy",
+        "Charismatic and Extrovert": "Charismatic",
         "Confident and strong": "Strong"
       }
     },
@@ -90,6 +90,7 @@
         "Try to lighten the mood with humor": "Funny"
       }
     }
+    
   ],
   "female": [
     {

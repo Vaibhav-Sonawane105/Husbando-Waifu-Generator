@@ -114,20 +114,24 @@ function selectAnswer(trait) {
     }
 }
 function findBestMatch(characters, userTraits) {
-    let bestMatch = null;
     let highestMatchCount = 0;
+    let bestMatches = [];
 
     characters.forEach(character => {
         let matchCount = character.traits.filter(trait => userTraits.includes(trait)).length;
 
         if (matchCount > highestMatchCount) {
             highestMatchCount = matchCount;
-            bestMatch = character;
+            bestMatches = [character];
+        } else if (matchCount === highestMatchCount) {
+            bestMatches.push(character);
         }
     });
 
-    return bestMatch;
+    // Pick a random character from top matches
+    return bestMatches[Math.floor(Math.random() * bestMatches.length)];
 }
+
 
 
 // Function to display the final result
